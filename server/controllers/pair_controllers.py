@@ -17,7 +17,7 @@ def generate_random_pairs(students):
     pairs = []
 
     # avoid infinite loop with odd number of students => minus 1?
-    while len(paired_students) < len(students):
+    while len(paired_students) < len(students) -1:
         student1 = random.choice(students)
 
         # ensure student1 is not already paired
