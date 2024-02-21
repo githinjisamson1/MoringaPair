@@ -33,7 +33,7 @@ const NavBar = () => {
             <Nav.Link href="#pairgroup">Pair Group</Nav.Link>
           </Col>
           <Col>
-          <Link to="/login" className="nav-link">Login</Link>
+          <Link to="/login" className="nav-link"></Link>
           </Col>
           <Col>
             <Nav.Link href="#signup">SignUp</Nav.Link>
