@@ -1,12 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import NavBar from "./components/NavBar";
-import Contact from "./pages/Contact";
+//import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Login from "./components/Login";
 import SignUp from "./components/SignUp";
 import StudentsDataGrid from "./pages/StudentsDataGrid";
-import ContactUs from "./components/Contact";
+import Contact from "./components/Contact";
 
 
 const App = () => {
@@ -21,6 +21,7 @@ const App = () => {
         <Route path="/Login" element={<Login />} />
         <Route path="/SignUp" element={<SignUp />} /> 
         <Route path="/students" element={<StudentsDataGrid />} />
+       
 
       </Routes>
     </>

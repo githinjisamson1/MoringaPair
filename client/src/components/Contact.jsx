@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "./pages/contact.css";
+/*import "./pages/contact.css";*/
 
-export default function ContactUs() {
+export default function Contact() {
   return (
     <Container className="contact-container">
       <Row>
