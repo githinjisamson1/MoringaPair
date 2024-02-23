@@ -8,7 +8,7 @@ const AboutUs = () => {
     <Container>
       <Row>
         <Col md={6}>
-          <Image src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.timeshighereducation.com%2Fstudent%2Fadvice%2Fhow-make-friends-university-united-states&psig=AOvVaw2BOibhMGDzm22KKpmAXY5x&ust=1708757111272000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDnlb_uwIQDFQAAAAAdAAAAABAI" fluid />
+          <Image src="https://www.shutterstock.com/image-photo/horizontal-image-multiracial-students-seated-260nw-1536299714.jpg" fluid />
         </Col>
         <Col md={6}>
           <div>
