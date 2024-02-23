@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-/*import "./pages/contact.css";*/
+import "../pages/contact.css"
 
 export default function Contact() {
   return (
