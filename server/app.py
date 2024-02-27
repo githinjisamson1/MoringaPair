@@ -5,6 +5,9 @@ from controllers.student_controllers import student_bp
 from controllers.pair_controllers import pair_bp
 from flask import make_response, jsonify
 from models import User, TokenBlocklist
+from flask_restful import Api, Resource
+
+api = Api(app)
 
 
 # !register blueprints
@@ -14,9 +17,16 @@ app.register_blueprint(student_bp, url_prefix="/api")
 app.register_blueprint(pair_bp, url_prefix="/api")
 
 
+class Index(Resource):
+    def get(self):
+        return "Welcome to Moringa Pair API", 200
+
+
+api.add_resource(Index, "/")
 # !JWT STUFF
 
 # jwt error handling == expired, invalid, missing tokens
+
 
 @jwt.expired_token_loader
 def expired_token_callback(jwt_header, jwt_data):

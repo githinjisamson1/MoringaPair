@@ -16,7 +16,7 @@ db = SQLAlchemy()
 
 # app configurations
 app.secret_key = environ.get("SECRET_KEY")
-app.config["SQLALCHEMY_DATABASE_URI"] = environ.get("SQLALCHEMY_DATABASE_URI")
+app.config["SQLALCHEMY_DATABASE_URI"] = environ.get("DATABASE_URI")
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = environ.get(
     "SQLALCHEMY_TRACK_MODIFICATIONS")
 app.config["SQLALCHEMY_ECHO"] = environ.get("SQLALCHEMY_ECHO")

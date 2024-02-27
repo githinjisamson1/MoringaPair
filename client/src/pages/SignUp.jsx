@@ -47,7 +47,7 @@ const SignUp = () => {
       console.log(values);
 
       // fetch API
-      fetch("/auth/register", {
+      fetch("https://moringapair-2lwm.onrender.com/auth/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -66,7 +66,7 @@ const SignUp = () => {
           if (data.error) {
             setError(data.error);
           } else {
-            setError(null)
+            setError(null);
             navigate("/login");
           }
         })
