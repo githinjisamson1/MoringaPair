@@ -27,7 +27,7 @@ app.json.compact = False
 
 
 # # configuration of mail
-app.config['MAIL_SERVER'] = 'smtp.fastmail.com'
+app.config['MAIL_SERVER'] = environ.get("MAIL_SERVER")
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USERNAME'] = environ.get("MAIL_USERNAME")
 app.config['MAIL_PASSWORD'] = environ.get("MAIL_PASSWORD")
