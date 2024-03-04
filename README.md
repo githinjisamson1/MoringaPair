@@ -38,6 +38,9 @@ To run this project, you will need to add the following environment variables to
 `SQLALCHEMY_TRACK_MODIFICATIONS`
 `SQLALCHEMY_ECHO`
 `JWT_SECRET_KEY`
+`MAIL_SERVER`
+`MAIL_USERNAME`
+`MAIL_PASSWORD`
 ## Features
 
 - Login
