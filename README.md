@@ -1,7 +1,7 @@
 
 # MoringaPair
 
-<p>A system that randomly pairs up students, keeps track of each pair and changes weekly.
+<p>A system that randomly pairs up students, keeps track of each pair, and changes weekly.
 </p>
 
 Problem statement: 
@@ -10,7 +10,7 @@ Pairing students and keeping track of each pair is cumbersome and laborious. At 
 
 Solution: 
 
-The system that randomly pairs up students, keeps track of each pair and changes weekly.
+A system that randomly pairs up students, keeps track of each pair, and changes weekly.
 
 
 
@@ -44,8 +44,8 @@ To run this project, you will need to add the following environment variables to
 - Create an account
 - The random pairing of students. 
 - Does this without any sort of metrics but ensures that there’s no duplication of pairs i.e. keep track of each pair per week
-- Data visualization and filters of the pairs spread over the weeks such that I am able to filter out and know on this week, who was paired with who
-- TMs can see history of pairings
+- Data visualization and filters of the pairs spread over the weeks such that I can filter out and know on this week, who was paired with who
+- TMs can see the history of pairings
 
 
 ## Feedback
@@ -68,7 +68,7 @@ flask db init
 flask db upgrade head
 flask run
 
-navigate to root directory
+navigate to the root directory
 cd client
 npm install
 npm start
@@ -85,7 +85,7 @@ npm start
 - Forms and Validations
 - Client-Server Communication
 - Serialization
-- Full-Stack Development with Flask and React
+- Full-stack development with Flask and React
 - Responsive Web Design
 - Deployment
 
@@ -102,7 +102,7 @@ npm start
 - useCallback: optimization
 - useReducer: complex state management
 - useNavigate: navigation
-- useContext: context API/avoid unecessary prop driling
+- useContext: context API/avoid unnecessary prop drilling
 
 ## Support
 
@@ -115,7 +115,7 @@ For support, email githinjisamson148@gmail.com.
 
 **Server:** ```Python | Flask```
 
-**Database:** ```SQLite```
+**Database:** ```Postgres```
 
 **Version Control:** ```Git```
 
